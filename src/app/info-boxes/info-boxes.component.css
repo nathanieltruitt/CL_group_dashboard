@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #007E67;
+  justify-content: center;
+
+}
+
+.container > div {
+  box-shadow: 1px 2px 1px ;
+  border-radius: 3px;
+  flex-wrap: nowrap;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 27%;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 110px;
+  padding-left: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container > div > h4 {
+  font-family: Roboto;
+  color: gray;
+}
+
+
+.arrow-up {
+  border: green;
+  border-width: 0 3px 3px 0;
+  color: green;
+}
+
+.arrow-down {
+  color: red;
+}
